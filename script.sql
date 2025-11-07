@@ -79,9 +79,9 @@ CREATE TABLE vagas (
 
 -- Empresas fictícias
 INSERT INTO empresa (nome, email, senha, telefone, area, descricao, site, imagem) VALUES
-('EcoPower Brasil', 'contato@ecopower.com', '$2y$10$wD.yJ8VvVZxE8XyA9A1qUu3VgPbzRLX8v4Y8Up4lt7D5JgRZhdX6q', '11999990001', 'Energias Renováveis', 'Empresa especializada em energia solar e eólica.', 'https://ecopower.com', 'ecopower.png'),
-('VerdeTech', 'rh@verdetech.org', '$2y$10$wD.yJ8VvVZxE8XyA9A1qUu3VgPbzRLX8v4Y8Up4lt7D5JgRZhdX6q', '11999990002', 'TI Sustentável', 'Startup focada em tecnologia verde e automação ambiental.', 'https://verdetech.org', 'verdetech.png'),
-('PlanetaLimpo', 'contato@planetalimpo.com', '$2y$10$wD.yJ8VvVZxE8XyA9A1qUu3VgPbzRLX8v4Y8Up4lt7D5JgRZhdX6q', '11999990003', 'Reciclagem', 'Organização dedicada à coleta e reciclagem de materiais.', 'https://planetalimpo.com', 'planetalimpo.png');
+('EcoPower Brasil', 'contato@ecopower.com', '$2y$10$wD.yJ8VvVZxE8XyA9A1qUu3VgPbzRLX8v4Y8Up4lt7D5JgRZhdX6q', '11999990001', 'Energias Renováveis', 'Empresa especializada em energia solar e eólica.', 'https://ecopower.com', 'ecopower.webp'),
+('VerdeTech', 'rh@verdetech.org', '$2y$10$wD.yJ8VvVZxE8XyA9A1qUu3VgPbzRLX8v4Y8Up4lt7D5JgRZhdX6q', '11999990002', 'TI Sustentável', 'Startup focada em tecnologia verde e automação ambiental.', 'https://verdetech.org', 'verdetech.jpeg'),
+('PlanetaLimpo', 'contato@planetalimpo.com', '$2y$10$wD.yJ8VvVZxE8XyA9A1qUu3VgPbzRLX8v4Y8Up4lt7D5JgRZhdX6q', '11999990003', 'Reciclagem', 'Organização dedicada à coleta e reciclagem de materiais.', 'https://planetalimpo.com', 'planetalimpo.webp');
 
 -- Usuários (profissionais)
 INSERT INTO usuarios (nome, email, senha, telefone, area, descricao, localizacao) VALUES
@@ -91,11 +91,11 @@ INSERT INTO usuarios (nome, email, senha, telefone, area, descricao, localizacao
 
 -- Vagas de exemplo
 INSERT INTO vagas (titulo, empresa, area, descricao, imagem) VALUES
-('Engenheiro Ambiental Júnior', 'EcoPower Brasil', 'Engenharia Ambiental', 'Atuar em projetos de energia solar e eólica. Necessário conhecimento básico em sustentabilidade.', 'vaga1.png'),
-('Desenvolvedor Backend Sustentável', 'VerdeTech', 'TI Verde', 'Responsável por sistemas que monitoram consumo energético de data centers.', 'vaga2.png'),
-('Analista de Reciclagem', 'PlanetaLimpo', 'Gestão de Resíduos', 'Gerenciar centros de coleta e campanhas educativas.', 'vaga3.png'),
-('Designer de Produtos Ecológicos', 'VerdeTech', 'Design Sustentável', 'Criar interfaces e produtos digitais com foco em impacto ambiental positivo.', 'vaga4.png'),
-('Coordenador de Projetos Verdes', 'EcoPower Brasil', 'Gestão Ambiental', 'Liderar equipes em projetos de energia limpa e inovação ecológica.', 'vaga5.png');
+('Engenheiro Ambiental Júnior', 'EcoPower Brasil', 'Engenharia Ambiental', 'Atuar em projetos de energia solar e eólica. Necessário conhecimento básico em sustentabilidade.', 'ecopower.webp'),
+('Desenvolvedor Backend Sustentável', 'VerdeTech', 'TI Verde', 'Responsável por sistemas que monitoram consumo energético de data centers.', 'verdetech.jpeg'),
+('Analista de Reciclagem', 'PlanetaLimpo', 'Gestão de Resíduos', 'Gerenciar centros de coleta e campanhas educativas.', 'Recicla.webp'),
+('Designer de Produtos Ecológicos', 'VerdeTech', 'Design Sustentável', 'Criar interfaces e produtos digitais com foco em impacto ambiental positivo.', 'ambiental.jpeg'),
+('Coordenador de Projetos Verdes', 'EcoPower Brasil', 'Gestão Ambiental', 'Liderar equipes em projetos de energia limpa e inovação ecológica.', 'casa-sus.jpg');
 
 -- Doações de exemplo
 INSERT INTO doacoes (empresa, valor) VALUES
